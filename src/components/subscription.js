@@ -7,7 +7,7 @@ export const Subscription = () => {
     <div className='flex flex-col min-h-[100vh]'>
       <Header/>
       <h1 className='mt-48 text-white text-4xl text-center'>Subscription Plans</h1>
-        <div  className='text-white mt-24 lg:flex :flex-col justify-around px-20'>
+        <div  className='text-white mt-24 lg:flex flex-col lg:justify-around items-center px-20'>
           <div className='w-[400px] h-[550px] flex flex-col items-center'>
             <h1 className='w-[50%] h-[10%] text-4xl rounded-t-2xl bg-pink-600 text-center flex flex-col justify-center'>Basic</h1>
             <div className='bg-white w-full h-full flex flex-col text-black items-center rounded-3xl text-center gap-10 hover:border-8 hover:border-pink-600'>
