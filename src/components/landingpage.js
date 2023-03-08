@@ -15,7 +15,7 @@ export default function Landing() {
   return (
     <div className="min-h-[100vh] flex flex-col">
       <Header/>
-      <div className="mt-24">
+      <div className="mt-44">
         <img src={Sonny} alt="sonny" className="mt-32  mx-auto w-[100px] h-[100px] "/>
         <h1 className="mt-20 text-center text-[#ffffff] text-3xl sm:text-4xl font-semibold">PAXEL</h1>
         <div className="mt-24 grid sm:grid md:grid-cols-2 lg:grid-cols-2  xl:grid-cols-4 place-items-center">
