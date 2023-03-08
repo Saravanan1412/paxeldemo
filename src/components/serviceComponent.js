@@ -8,8 +8,8 @@ const ServiceComponent = (props) => {
           <div className='pt-16'>
             <img src={props.icon} alt="icon" className=' ml-10 w-[50px] h-[50px] '/>
           </div>
-          <p className='ml-10 mt-8'>{props.title}</p>
-          <button className='ml-10 mt-4 text-xl text-white bg-[#00203f] w-20 rounded-xl' onClick={()=>{navigate(props.route);window.scrollTo(0, 0)}}>MORE</button>
+          <p className='ml-10 text-lg mt-8'>{props.title}</p>
+          <button className='ml-10 mt-4 text-lg text-white bg-[#00203f] w-20 rounded-xl' onClick={()=>{navigate(props.route);window.scrollTo(0, 0)}}>MORE</button>
         </div>
     </div>
   )
